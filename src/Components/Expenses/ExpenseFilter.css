@@ -1,0 +1,25 @@
+.expense-filter {
+  padding: 10px;
+}
+.expense-filter-control {
+  display: flex;
+  justify-content: space-between;
+}
+.expense-filter-control > label {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.expense-filter-control > select {
+  width: 140px;
+  border-radius: 4px;
+  height: 40px;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.expense-filter-control > select > option:is(:checked) {
+  background-color: #4B4B4B;
+  color: white;
+}
